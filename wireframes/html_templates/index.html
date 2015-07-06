@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- TODO: Include a title. -->
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- TODO: Replace "yourclientname.css" href with appropriate compiled CSS. -->
+        <link rel="stylesheet" type="text/css" href="../styles/css/yourclientname.css"/>
+    </head>
+    <body>
+        <!-- start [name of component or section] NOTE: this is a starting comment for a piece of the page -->
+        <!-- end [name of component or section] NOTE: this is an ending comment for that same piece of the page -->
+
+        <!--
+             NOTE:  The below is example markup:
+                    1. We start with an `.g-outer-container` - an element that is edge to edge (100% width) of the browser window - see `_grid-helpers.scss` for styling in `styles > scss > yourclientname > helpers`
+                    2. We then have a `.g-column-container` - an element that is edge to edge of our grid - see `_grid-helpers.scss` for styling in `styles > scss > yourclientname > helpers`
+                    3. We then have a _default_ component: Media Object - a component that uses BEM class naming conventions - see `_media-object.scss` for styling in `styles > scss > yourclientname > components > 01-media-object`
+                    4. Lastly, we have a _modified_ component: Media Object - Pull left - Notice the use of the `.l-pull-left` class.
+        -->
+        <!-- START Outer Container -->
+        <div class="g-outer-container"> <!-- 1 -->
+            <!-- START Column Container -->
+            <div class="g-column-container"> <!-- 2 -->
+
+                <!-- START Media Object - Default (no width) -->
+                <div class="media-object"> <!-- 3 -->
+                    <a href="#" class="media-object__media">
+                        <figure>
+                            <img src="http://placehold.it/320x180">
+                        </figure>
+                    </a>
+                    <div class="media-object__body">
+                        <h4 class="media-object__heading">
+                            <a href="#" title="Page Title">Media Object - Default</a>
+                        </h4>
+                        <ul class="media-object__meta">
+                            <li class="media-object__meta-author">by Rebecca Klein-Collins and Kathleen M. Glancey</li>
+                            <li class="media-object__meta-pubdate">
+                                <time datetime="2015-04-13">April 13, 2015</time>
+                            </li>
+                        </ul>
+                        <p class="media-object__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate veniam quasi, a cum eligendi porro voluptates veritatis. Dolorum non animi recusandae minima laboriosam quidem, illo numquam voluptatem ratione architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate veniam quasi, a cum eligendi porro voluptates veritatis.</p>
+                        <a href="#" class="media-object__link" title="Read More">Read More</a>
+                    </div>
+                </div>
+                <!-- END Media Object - Default (no width) -->
+
+                <!-- START Media Object - Default - Pull Left -->
+                <div class="media-object"> <!-- 3 -->
+                    <a href="#" class="media-object__media l-pull-left">
+                        <figure>
+                            <img src="http://placehold.it/320x180">
+                        </figure>
+                    </a>
+                    <div class="media-object__body">
+                        <h4 class="media-object__heading">
+                            <a href="#" title="Page Title">Media Object - Default - Pull Left</a>
+                        </h4>
+                        <ul class="media-object__meta">
+                            <li class="media-object__meta-author">by Rebecca Klein-Collins and Kathleen M. Glancey</li>
+                            <li class="media-object__meta-pubdate">
+                                <time datetime="2015-04-13">April 13, 2015</time>
+                            </li>
+                        </ul>
+                        <p class="media-object__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate veniam quasi, a cum eligendi porro voluptates veritatis. Dolorum non animi recusandae minima laboriosam quidem, illo numquam voluptatem ratione architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cupiditate veniam quasi, a cum eligendi porro voluptates veritatis.</p>
+                        <a href="#" class="media-object__link" title="Read More">Read More</a>
+                    </div>
+                </div>
+                <!-- END Media Object - Default - Pull Left -->
+
+            </div>
+            <!-- START Column Container -->
+        </div>
+        <!-- END Outer Container -->
+    </body>
+</html>
